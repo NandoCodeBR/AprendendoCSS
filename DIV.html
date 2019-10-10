@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!--Classes e IDS são bem parecidos, mas IDS são para partes específicas 
+        e Classes são para várias partes genéricas da página-->
+    <style type="Text/CSS">    
+    #topo {
+        background-color: blue;
+    }
+    #conteudo{
+        background-color: firebrick;
+    }
+    #rodape{
+        background-color: green;
+        text-align: center;
+    }
+    #direito{
+        font-family:Tahoma;
+        color: indigo;
+    }
+    .produto{
+        background-color: gold;
+        margin: 10px;
+    }
+    </style>
+    
+</head>
+<body>
+    <h1>Classes, Ids, Divs e Spans</h1>
+    <!--Divs são divisões dentro da página que dividem por bloco
+        Spans são divisões dentro da página que dividem por linha-->
+    <div id="topo">
+        <img src="https://cobrancarecorrente.com/wp-content/uploads/2019/09/amazon_prime_logo_png_31202.png" width="200">
+    </div>
+    <div id="conteudo">
+            <div class="produto">Conteudo 1</div>
+            <div class="produto">Conteudo 2</div>
+            <div class="produto">Conteudo 3</div>
+            <div class="produto">Conteudo 4</div>
+    </div>
+    <div id="rodape">Todos os <span id="direito">direitos</span> reservados</div>
+</body>
+</html>
