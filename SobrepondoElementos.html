@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+    #container{
+        background: #FFF;
+        width: 800px;
+        margin: 10px 200px;
+        /*Fixed é baseada na janela do navegador*/
+        position:relative;
+    }
+    p{
+        width: 400px;
+    }
+    #elemento1{
+        /*Relative é baseada na posição normal do elemento*/
+        position: absolute;
+        top: 80px;
+        left: 80px;
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+        z-index: 1;
+    }
+ 
+    #elemento2{
+        
+        position: absolute;
+        top: 160px;
+        left: 160px;
+        width: 200px;
+        height: 200px;
+        background-color: red;    
+        z-index: 2;
+    }
+    #elemento3{
+        
+        position: absolute;
+        top: 240px;
+        left: 240px;
+        width: 200px;
+        height: 200px;
+        background-color: green;    
+        z-index: 3;
+    }
+    #elemento4{
+        
+        position: absolute;
+        top: 320px;
+        left: 320px;
+        width: 200px;
+        height: 200px;
+        background-color: yellow;    
+        z-index: 4;
+    }
+
+
+    .fixed{
+        position: fixed;
+        bottom: 0px;
+    }
+    </style>
+</head>
+<body>
+    <div id="elemento1"></div>
+    <div id="elemento2"></div>
+    <div id="elemento3"></div>
+    <div id="elemento4"></div>
+
+</body>
+</html>
