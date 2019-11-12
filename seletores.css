@@ -1,0 +1,30 @@
+/*Seleção de todos os componentes da página*/
+*{
+    font-family: "comic sans MS";
+}
+/*Determinando o comportamento caso você passe o mouse sobre o link*/
+a:hover{
+    color: red;
+}
+/*Determinando o comportamento de uma tag filho dentro de uma tag*/
+div>h2{
+    color: red;
+    background: sienna;
+}
+/*Determinando o comportamento de um link dentro de uma tag específica*/
+li a:hover{
+    color: green;
+    background-color: chocolate;
+}
+/*Seletor de irmão
+Nesse caso, P é irmão posterior de H1
+Então será aplicada ao irmão posterior, que no caso é P*/
+h1+p{
+    color: firebrick;
+}
+/*Também é um seletor de irmão, mas não precisa ser diretamente precedente
+Caso houvesse dois elementos h1 que fossem irmãos de um elemento P,
+ a regra se aplicaria aos dois*/
+p~h1{
+    color: gold;
+}
