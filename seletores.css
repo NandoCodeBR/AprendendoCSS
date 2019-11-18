@@ -5,6 +5,7 @@
 /*Determinando o comportamento caso você passe o mouse sobre o link*/
 a:hover{
     color: red;
+    font-family: "Arial"; !important /*Agora essa propriedade terá prioridade em caso de alguma outra propriedade desse elemento*/
 }
 /*Determinando o comportamento de uma tag filho dentro de uma tag*/
 div>h2{
