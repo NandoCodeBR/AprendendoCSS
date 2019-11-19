@@ -27,7 +27,7 @@ ul a {
 ul a:hover{
 
     background-position: right bottom;
-    animation: animacao 0.4s;
+    
 }
 @keyframes animacao {
     0% {
@@ -37,3 +37,12 @@ ul a:hover{
         background-position: right;
     }
 }
+#home .home a,
+#sobre .sobre a,
+#noticias .noticias a,
+#servicos .servicos a,
+#contato .contato a{
+    background-position: right bottom;
+    animation: animacao 0.4s;
+}
+
