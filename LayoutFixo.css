@@ -1,0 +1,96 @@
+/*body{
+    font-family: 'Trebuchet MS',  sans-serif, Helvetica;
+    
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    width: 720px;
+
+}
+ul li{
+    float: left;
+    
+    background: url(../CSS/NavAba/aba-direita.png) no-repeat top right;
+    
+}
+li a{
+    display: block;
+    padding: 0 2em;
+    line-height: 3em;
+    text-decoration: none;
+    background: url(../CSS/NavAba/aba-esquerda.png) no-repeat top left;
+    color: white;
+}
+ul a:hover {
+    color: #894a1F;
+}
+ul #atual {
+    background: url(../CSS/NavAba/aba-direita-atual.png) no-repeat top right;
+}
+ul #atual a {
+    background: url(../CSS/NavAba/aba-esquerda-atual.png) no-repeat top left;
+}
+*/
+body{ /*A cor do background fica na parte de fora
+    Definição das fontes para o site todo*/
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    background: #f2f2f2; 
+}
+#container{
+    /*A caixa aonde ficará todos os itens do site*/
+    width: 720px;
+    margin: 0 auto;
+    background: white;
+}
+#marca {
+    /*A parte de cima, onde deve ficar o logo*/
+    height: 100px;
+    background: #9E9E9E;
+    text-align: center;
+    line-height: 100px;
+}
+#conteudo{
+    /*Conteúdo do site, textos, etc.*/
+    width: 520px;
+    float: right;
+}
+#conteudo-principal{
+    width: 320px;
+    float: left;
+}
+#conteudo-secundario {
+    /*Conteúdo secundário
+    Informações adicionais ou coisas que não são do artigo principal*/
+    width: 180px;
+    float: right;
+    background: #d1d1d1;
+}
+#conteudo-secundario p,
+#conteudo-secundario h2 {
+    /*Definindo o padding para o texto para ter um espaçamento na área*/
+    padding-left:20px;
+    padding-right: 20px;
+}
+#navegacao {
+    /*Barra de navegação, aonde ficam os links*/
+    width: 180px;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #d1d1d1;
+
+}
+#navegacao ul {
+    list-style-type: none;
+}
+#navegacao li a {
+    text-decoration: none;
+}
+#rodape{
+    /*Final da página, usando um clear:both para limpar a flutuação e finalizar o site*/
+    clear: both;
+    background: #c4c4c4;
+    padding: 5px;
+}
