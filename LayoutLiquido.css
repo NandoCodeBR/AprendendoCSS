@@ -1,44 +1,58 @@
 body{ /*A cor do background fica na parte de fora
     Definição das fontes para o site todo*/
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; 
+
     background: #f2f2f2; 
 }
 #container{
     /*A caixa aonde ficará todos os itens do site*/
-    width: 85%; /*720px*/
+    width: 960px; /*720px*/
     margin: 0 auto;
     background: white;
     min-width: 720px;
     max-width: 1280px;
+    background: #FFF url(ImgLiq/coluna.png) repeat-y left top;
+
 }
 #marca {
     /*A parte de cima, onde deve ficar o logo*/
     height: 100%; /*100px*/
-    background: #9E9E9E;
+    background: #225992 url(ImgLiq/cabecalho2.jpg) no-repeat center;
     text-align: center;
-    line-height: 100px;
+    line-height: 300px;
+    
 }
 #conteudo{
     /*Conteúdo do site, textos, etc.*/
     width: 75%; /*520px   (520*100)/700 = 74.28%*/
     float: right;
+    background: url(ImgLiq/coluna2.png) repeat-y top right;
+
 }
 #conteudo-principal{
-    width: 62%; /*320px + 180px = 500px ------        (320*100)/500 = 64%*/
+    width: 64%; /*320px + 180px = 500px ------        (320*100)/500 = 64%*/
     float: left;
+}
+img.img-noticia{
+    width:90%;
+    padding: 2%;
+    max-width: 600px;
+
 }
 #conteudo-secundario {
     /*Conteúdo secundário
     Informações adicionais ou coisas que não são do artigo principal*/
-    width: 34%; /*180px    (180*100)/700 = 36*/
+    width: 31%; /*180px    (180*100)/700 = 36*/
     float: right;
-    background: #d1d1d1;
+
+    
 }
 #conteudo-secundario p,
 #conteudo-secundario h2 {
     /*Definindo o padding para o texto para ter um espaçamento na área*/
     padding-left:5%;
     padding-right: 5%;
+    
 }
 #navegacao {
     /*Barra de navegação, aonde ficam os links*/
@@ -46,7 +60,7 @@ body{ /*A cor do background fica na parte de fora
     float: left;
     padding-top: 20px;
     padding-bottom: 20px;
-    background: #d1d1d1;
+  /*  background: #d1d1d1;*/
 
 }
 #navegacao ul {
